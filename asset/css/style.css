@@ -1,0 +1,307 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: green;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: black;
+    background-color: white;
+    align-items: center;
+    cursor: pointer;
+}
+
+header .logo img{
+    width: 60px;
+    cursor: pointer;
+}
+header nav ul{
+    display: flex;
+    flex-direction: row;
+}
+header nav ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: inherit
+}
+
+header nav ul li Button{
+    border: 1px solid grey;
+    width: 150px;
+    height: 30px;
+    border-radius: 360px;
+    text-align: left;
+    cursor: text;
+    background-color: transparent;
+}
+
+header .login button.signup{
+    color: white;
+    border-radius: 360px;
+    border:none;
+    background-color: green;
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+header .login button.login-button{
+    color: white;
+    border-radius: 360px;
+    border:none;
+    background-color: tomato;
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+header .login button.login-button:hover{
+    transition: ease-in-out 0.3s;
+    color: white;
+    background-color: magenta;
+}
+
+/* content */
+
+main{
+    background-image: url(images/spaces.gif);
+    background-size: cover;
+    height: 500px;
+}
+
+main .mainKonten {
+    text-align: center;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  main .mainKonten input[type="text"] {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border: none;
+    border-radius: 25px;
+    padding: 10px 15px;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  main .mainKonten input[type="text"]:focus {
+    outline: none;
+    transform: translateY(-3px);
+  }
+  
+  main .mainKonten a {
+    display: block;
+    margin-top: 20px;
+    color: #fff; /* Warna link */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  main .mainKonten a:hover {
+    transform: translateY(-3px);
+  }
+
+main .mainKonten{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+main .mainKonten h1{
+    font-size: 70px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 0;
+}
+
+main .mainKonten h4{
+    font-size: 23px;
+    color: #fff4a3;
+    font-weight: 700;
+}
+
+main .mainKonten a{
+    font-size: 23px;
+    font-weight: 700;
+    color: white;
+    margin-top: 30px;
+}
+
+main .mainKonten a:hover{
+    color: #fff4a3;
+}
+
+main .mainKonten input{
+    height: 40px;
+    width: 550px;
+    border-radius: 360px;
+    text-align: center;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.main .subKonten{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    color: white;
+}
+
+.main .subKonten .card{
+    margin: 30px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.main .subKonten .card h1{
+    font-size: 38px;
+    margin-bottom: 0;
+}
+
+.main .subKonten .card p{
+    margin-bottom: 40px;
+}
+
+.main .subKonten .card button{
+    height: 30px;
+    width: 200px;
+    border: none;
+    border-radius: 360px;
+    background-color: rgb(12, 12, 26);
+    color: white;
+    cursor: pointer;
+}
+
+.main .subKonten .card button:hover{
+    background-color: rgb(10, 10, 11);
+}
+
+/* footer */
+
+footer{
+    background-color: rgb(10, 10, 11);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .mainFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: #fff4a3;
+    gap: 20px;
+}
+
+footer .mainFooter h4 a{
+    color: inherit;
+}
+
+footer .mainFooter img{
+    width: 60px;
+}
+
+footer .main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 20px;
+    font-size: 10px;
+    color: white;
+    gap: 70px;
+}
+
+footer .bungkusan{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+footer .text{
+    color: white;
+    font-size: 10px;
+}
+/* ... CSS sebelumnya ... */
+/* ... CSS sebelumnya ... */
+
+/* Efek Glassmorphism pada tombol */
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .login button {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .login button:hover {
+    transform: translateY(-3px);
+  }
+  
+
+/* Efek Glassmorphism pada card */
+.main .subKonten {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .main .subKonten .card {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .main .subKonten .card:hover {
+    transform: translateY(-5px);
+  }
+
+  
+  
+  
